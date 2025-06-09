@@ -17,7 +17,7 @@ Output: ['    *    ', '   ***   ', '  *****  ', ' ******* ', '*********', ' ****
 def generate_diamond(n):
     pattern = []
 
-    for i in range(n): # 3
+    for i in range(n): 
        star = "*"*(2*i+1)
        space = " "*(n-i-1)
        pattern.append(space + star + space)
